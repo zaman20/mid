@@ -1,0 +1,97 @@
+*{margin: 0;}
+.main-container{
+    width: 100%;
+    
+}
+.login-box{
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    background: linear-gradient(90deg,#ff00fd,#1b00ff);
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+.login-box h3{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: white;
+    
+}
+.login-form{
+    width: 50%;
+    margin: 15px auto;
+}
+.login-form input[type="text"], .login-form input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 0px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.login-form input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    padding-left: 11px;
+    border: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    background: #facd04;
+}
+.login-form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: white;
+    
+}
+.left-part{
+    background: black;
+    height: 100%;
+    position: fixed;
+    color: white;
+    padding-top: 30px;
+}
+.left-part-content h2{
+    font-size: 20px;
+}
+
+.left-part-content ul li{
+    display: block;
+    margin-top: 15px;
+}
+.left-part-content ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.left-part-content ul li:hover{
+    background-color: gray;
+}
+.right-part{
+    margin-left: 117px;
+    margin-top: 48px;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    font-size: 31px;
+    color: white;
+    text-transform: uppercase;
+}
+.rent{
+    background: linear-gradient(orange, red);
+}
+.sell{
+    background:linear-gradient(blue,#c7140f)
+}
+.appnt{
+    background: linear-gradient(#011c21,orange)
+}
